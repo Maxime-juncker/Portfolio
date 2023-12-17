@@ -98,6 +98,7 @@
 
 .NextProject
 {
+    position: relative;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -105,12 +106,73 @@
     align-items: center;
 
     padding-block: 20px;
-    padding-inline: 40px;
 
-    background-color: black;
+    background-color: white;
     z-index: 1000000;
     text-align: left;
+
+    border: none;
 }
+.NextProject .background
+{
+    position: absolute;
+    width: 110%;
+    height: 100%;
+    top: 0;
+    left: -20px;
+    opacity: 0;
+
+    transition: all .2s;
+}
+.NextProject:hover .background
+{
+    opacity: 1;
+    z-index: -1;
+}
+
+.NextProject h3
+{
+    color: #808080;
+    font-weight: normal;
+    transition: all .2s;
+    margin-left: 60px;
+
+}
+.NextProject h1
+{
+    margin-left: 60px;
+    font-weight: normal;
+    transition: all .2s;
+
+}
+.NextProject:hover h1,
+.NextProject:hover h3
+{
+    filter: grayscale(1) brightness(10);
+
+}
+.NextProject img
+{
+    transition: all .2s;
+    margin-right: 60px;
+}
+.NextProject:hover img
+{
+    transform: translateX(20px);
+}
+
+.Footer
+{
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
 @media (max-width: 1000px)
 {
@@ -127,5 +189,19 @@
     {
         margin-left: 20%;
     }
+    .NextProject
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .NextProject h1,
+    .NextProject h3,
+    .NextProject img
+    {
+        margin: 0;
+    }
+
+ 
 
 }

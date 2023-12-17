@@ -2,11 +2,14 @@ import PointLight from "../Components/PointLight";
 import Link from "next/link";
 import SkillCard from "../Components/SkillCard";
 import styles from '../styles/about.module.css'
+import { useState } from "react";
 
 const Maximatron = () => 
 {
+    const [isHovered, setIsHovered] = useState(false);
     return (
         <div>               
+
             <header className={styles.ProjectAbout}>
             <Link className='link' style={{zIndex: 1, width:"100%",textAlign:"left", marginLeft:"5vw",
                     textDecoration: "underline" ,fontSize: "24px"}}
@@ -72,13 +75,23 @@ const Maximatron = () =>
                 </div>
             </section>
 
-            <button className={styles.NextProject}>
+            <Link href={"/HumanSI"} className={styles.NextProject}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}>
                 <section>
                     <h3>NEXT PROJECT</h3>
-                    <h1>Pronout</h1>
+                    <h1 style={{color:"var(--red)"}}>Pronout</h1>
                 </section>
-                <img src="/arrow.svg"/>
-            </button>
+                <img src="/arrow.svg" className="arrow" style={!isHovered ? {filter: "hue-rotate(348deg) saturate(57%) brightness(100%)"}
+                : {filter: "grayscale(1) brightness(10)"}}/>
+                <div className={styles.background} style={{backgroundColor: "var(--red)"}}/>
+            </Link>
+
+            <section className={styles.Footer}>
+                <article>
+                    
+                </article>
+            </section>
 
         </div>
     );
