@@ -1,13 +1,13 @@
 import PointLight from "../Components/PointLight";
 import Link from "next/link";
 import SkillCard from "../Components/SkillCard";
-import '../styles/about.module.css'
+import styles from '../styles/about.module.css'
 
 const Maximatron = () => 
 {
     return (
         <div>               
-            <header className='Project-about'>
+            <header className={styles.ProjectAbout}>
             <Link className='link' style={{zIndex: 1, width:"100%",textAlign:"left", marginLeft:"5vw",
                     textDecoration: "underline" ,fontSize: "24px"}}
                     href={"/"}>← Go Back</Link>
@@ -24,11 +24,11 @@ const Maximatron = () =>
 
             <div></div>
 
-            <section className='Content'>
-                <div className="Summary">
+            <section className={styles.Content}>
+                <div className={styles.Summary}>
                     <article>
                         <div>
-                            <h2>Project Idea</h2>
+                            <h2 >Project Idea</h2>
                             <p>The Maximatron is a productivity app 
                                 where the user can add 
                                 multiple type of blocks to do a variety of things like,
@@ -52,14 +52,14 @@ const Maximatron = () =>
 
                         </div>
                     </article>
-                    <article className='screenshot-contener' style={{backgroundColor: "var(--redLow)"}}> 
+                    <article className={styles.screenshotContener} style={{backgroundColor: "var(--redLow)"}}> 
                         <img src={("/Images/Projects/Maximatron/Maximatron-app-screen01.png")} alt="" />
                         <img src={("/Images/Projects/Maximatron/Maximatron-app-screen02.png")} alt="" />
                     </article>
                 </div>
-                <div className='Features'>
-                <PointLight left={0} top={0} backgroundColor={"var(--red)"}/>
-                <PointLight left={-40} top={170} backgroundColor={"var(--red)"}/>
+                <div className={styles.Features}>
+                <PointLight left={-40} top={-20} backgroundColor={"var(--red)"}/>
+                <PointLight left={0} top={-20} backgroundColor={"var(--red)"}/>
 
                     <h2>Features</h2>
                     <li>Files hierachy</li>
@@ -72,12 +72,12 @@ const Maximatron = () =>
                 </div>
             </section>
 
-            <button className="Next-project">
+            <button className={styles.NextProject}>
                 <section>
                     <h3>NEXT PROJECT</h3>
                     <h1>Pronout</h1>
                 </section>
-                <img src="/arrow.svg" className="test"/>
+                <img src="/arrow.svg"/>
             </button>
 
         </div>

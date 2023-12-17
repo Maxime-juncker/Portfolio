@@ -60,9 +60,6 @@ export default function Home() {
                 <section className='Work' id='Work'>
                   <h1>WORK</h1>
                   <h2>MY LATEST PROJECT</h2>
-                  <Link legacyBehavior href="/Maximatron">
-      <a>About Page</a>
-    </Link>
                   <ProjectCard src={"/Images/Projects/Maximatron/Maximatron-screen.png"}
                                title="The Maximatron" description="Desktop development"
                                logo={"/Images/Projects/Maximatron/Maximatron-logo.png"}
