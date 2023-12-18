@@ -16,6 +16,7 @@
   margin: 0;
   font-family: 'Titillium Web', sans-serif;
   color: white;
+  overflow-x: hidden;
 
 }
 

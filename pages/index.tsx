@@ -2,6 +2,7 @@ import SkillCard from '../Components/SkillCard';
 import PointLight from '../Components/PointLight';
 import ProjectCard from '../Components/ProjectCard';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const violet = "#6C399F";
 const blue = "#306AFF";
@@ -11,6 +12,9 @@ const green = "#387256";
 export default function Home() {
   return (
       <main className="App">
+          <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
               {/* <Navbar/> */}
         
                 <section className='Hero' id='Hero'>
