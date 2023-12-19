@@ -1,8 +1,7 @@
 import SkillCard from '../Components/SkillCard';
 import PointLight from '../Components/PointLight';
 import ProjectCard from '../Components/ProjectCard';
-import Link from 'next/link';
-import Head from 'next/head';
+import ContactForm from '../Components/ContactFrom'
 
 const violet = "#6C399F";
 const blue = "#306AFF";
@@ -81,19 +80,18 @@ export default function Home() {
                   <PointLight left={65} top={55} backgroundColor={red}/>
                   <PointLight left={0} top={70} backgroundColor={red}/>
                   <PointLight left={80} top={80} backgroundColor={red}/>
-                  <PointLight left={80} top={150} backgroundColor={green}/>
-                  <PointLight left={0} top={100} backgroundColor={green}/>
-                  <PointLight left={10} top={150} backgroundColor={green}/>               
-        
+                  <PointLight left={-20} top={50} backgroundColor={red}/>
                 </section>
         
                 <section id='Contact' className='Contact'>
                   <h1>CONTACT</h1>
                   <section>
                     <article className='Contact-card'>
-                      {/* <ContactForm/> */}
+                      <ContactForm/>
                     </article>
                   </section>
+                  <PointLight left={10} top={0} backgroundColor={green}/>
+                  <PointLight left={80} top={20} backgroundColor={green}/>
                 </section>
             </main>  
   )
