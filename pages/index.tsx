@@ -12,9 +12,7 @@ const green = "#387256";
 export default function Home() {
   return (
       <main className="App">
-          <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
+        
               {/* <Navbar/> */}
         
                 <section className='Hero' id='Hero'>
