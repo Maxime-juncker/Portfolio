@@ -1,7 +1,7 @@
 import SkillCard from '../Components/SkillCard';
 import PointLight from '../Components/PointLight';
 import ProjectCard from '../Components/ProjectCard';
-import ContactForm from '../Components/ContactFrom'
+import ContactForm from '../Components/ContactForm'
 
 const violet = "#6C399F";
 const blue = "#306AFF";
