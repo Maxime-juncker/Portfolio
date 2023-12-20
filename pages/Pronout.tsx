@@ -61,13 +61,8 @@ const Maximatron = () =>
                 <PointLight left={0} top={-20} backgroundColor={"var(--pronout)"}/>
 
                     <h2>Features</h2>
-                    <li>Files hierachy</li>
-                    <li>Opening folder / file</li>
-                    <li>Saving / Quick saving file</li>
-                    <li>All action contain shortcut</li>
-                    <li>Custom saving using .maximatron format</li>
-                    <li>App theme match windows accent colors</li>
-                    <li>Lists / note / checkbox blocks</li>
+                    <li>It's just an app clone <br /> nothing to fancy</li>
+                    
                 </div>
 
             </section>
