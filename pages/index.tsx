@@ -100,6 +100,10 @@ export default function Home() {
                   <img src="/Images/Cards/github.svg" alt="The github logo"/>
                   <h1>My github</h1>
                 </Link>
+                <Link href="https://github.com/Maxime-juncker/portfolio" className={styles.Github} style={{ width: "15vw", marginLeft:"5vw"}}>
+                  <img src="/Images/Cards/github.svg" alt="The github logo"/>
+                  <h1>Portfolio code here</h1>
+                </Link>
                   </section>
                   <PointLight left={10} top={0} backgroundColor={green}/>
                   <PointLight left={80} top={20} backgroundColor={green}/>
