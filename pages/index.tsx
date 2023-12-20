@@ -18,6 +18,7 @@ export default function Home() {
                   <PointLight left={10} top={60} backgroundColor={violet}/>
                   <PointLight left={80} top={45} backgroundColor={violet}/>
                   <PointLight left={25} top={10} backgroundColor={violet}/>
+                  <img src="/Images/header-img.png" alt="" className='background-img' style={{marginTop:"5vh"}}/>
         
                   <h1>JUNCKER <br /> MAXIME</h1>
                   <h3>SOFTWARE DEVELOPPER</h3>
@@ -44,7 +45,8 @@ export default function Home() {
                       <SkillCard content={"C#"} src={"/Images/Cards/cs.svg"}/>
                       <SkillCard content={"C++"} src={"/Images/Cards/cpp.svg"}/>
                       <SkillCard content={"CSS"} src={"/Images/Cards/css.svg"}/>
-                      <SkillCard content={"PYTHON"} src={"/Images/Cards/html.svg"}/>
+                      <SkillCard content={"HTML"} src={"/Images/Cards/html.svg"}/>
+                      <SkillCard content={"PYTHON"} src={"/Images/Cards/python.svg"}/>
                       <SkillCard content={"UNITY"} src={"/Images/Cards/unity.svg"}/>
                       <SkillCard content={"UNREAL"} src={"/Images/Cards/unreal.svg"}/>
                       <SkillCard content={"BLENDER"} src={"/Images/Cards/blender.svg"}/>
@@ -59,6 +61,8 @@ export default function Home() {
                 </section>
         
                 <section className='Work' id='Work'>
+                <img src="/Images/rasberryPI.png" alt="" className='background-img' style={{marginTop:"5vh", marginLeft:"60vw"}}/>
+
                   <h1>WORK</h1>
                   <h2>MY LATEST PROJECT</h2>
                   <ProjectCard src={"/Images/Projects/Maximatron/Maximatron-screen.png"}
@@ -86,6 +90,8 @@ export default function Home() {
                 <section id='Contact' className='Contact'>
                   <h1>CONTACT</h1>
                   <section>
+
+                      <img src="/Images/pc.png" alt="" className='background-img' style={{marginRight:"40vw", marginBottom:"30vh"}}/>
                     <article className='Contact-card'>
                       <ContactForm/>
                     </article>

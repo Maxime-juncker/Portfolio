@@ -6,7 +6,11 @@
   --dark-grey: #1e1e1e;
   --violet: #6C399F;
   --green: #387256;
-  --red: #cc435e
+  --red: #cc435e;
+
+  --human-si: #74A661;
+  --pronout: #387256;
+
 
 }
 
@@ -81,6 +85,68 @@ h1
   position: absolute;
   z-index: -1;
 
+  animation: light 10s infinite;
+
+}
+@keyframes light {
+  0%
+  {
+    transform: translateX(0px) translateY(0px) scale(1);
+  }
+  25%
+  {
+    transform: translateX(10px) translateY(5px) scale(1.2);
+  }
+  50%
+  {
+    transform: translateX(10px) translateY(20px) scale(1.2);
+  }
+  80%
+  {
+    transform: translateX(-10px) translateY(0px) scale(.7);
+  }
+  100%
+  {
+    transform: translateX(0px) translateY(0px) scale(1);
+  }
+}
+
+.background-img
+{
+  position: absolute;
+  width: 70vw;
+  min-width: 1000px;
+
+  z-index: -2;
+  animation: backgroundMovement 10s infinite ease-in-out;
+
+}
+
+@keyframes backgroundMovement {
+  0%
+  {
+    transform: translateX(0px) translateY(0px) scale(1.05);
+  }
+  20%
+  {
+    transform: translateX(30px) translateY(19px) scale(1.05);
+  }
+  50%
+  {
+    transform: translateX(40px) translateY(36px) scale(1.1);
+  }
+  70%
+  {
+    transform: translateX(0px) translateY(25px) scale(.95);
+  }
+  90%
+  {
+    transform: translateX(-7px) translateY(10px) scale(1);
+  }
+  100%
+  {
+    transform: translateX(0px) translateY(0px) scale(1.05);
+  }
 }
 
 /* ********************************************************* */
@@ -103,10 +169,10 @@ h1
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("/Images/header-img.png");
+  /* background-image: url("/Images/header-img.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 
 
@@ -230,6 +296,8 @@ h1
   align-items: center;
 }
 
+
+
 .Skill-card img
 {
   height: 100%;
@@ -262,6 +330,11 @@ h1
   justify-content: center;
   align-items: center;
   margin-bottom: 30vh;
+
+  /* background-image: url("/Images/rasberryPI.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 500px; */
   
 }
 
@@ -391,7 +464,7 @@ h1
 
 .Project-card:hover
 {
-  filter: drop-shadow(30px 10px 4px black);
+  filter: drop-shadow(30px 10px 4px rgba(0, 0, 0, 0.5));
   transform: translateX(-20px);
   scale: 1.05;
 }
@@ -448,7 +521,9 @@ h1
   width: 100%;
   height: auto;
   position: relative;
+
 }
+
 .Contact section
 {  
   display: flex;
@@ -685,6 +760,6 @@ h1
 
   .Contact-card
   {
-    width: 80vw;
+    width: 50vw;
   }
 }
