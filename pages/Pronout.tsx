@@ -69,6 +69,7 @@ const Maximatron = () =>
                     <li>App theme match windows accent colors</li>
                     <li>Lists / note / checkbox blocks</li>
                 </div>
+
             </section>
 
             <Link href={"/Maximatron"} className={styles.NextProject}

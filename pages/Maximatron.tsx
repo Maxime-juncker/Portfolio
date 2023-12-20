@@ -2,6 +2,7 @@ import PointLight from "../Components/PointLight";
 import Link from "next/link";
 import SkillCard from "../Components/SkillCard";
 import styles from '../styles/about.module.css'
+import GithubBtn from "../Components/GithubBtn";
 import { useState } from "react";
 
 const Maximatron = () => 
@@ -73,6 +74,8 @@ const Maximatron = () =>
                     <li>App theme match windows accent colors</li>
                     <li>Lists / note / checkbox blocks</li>
                 </div>
+
+                <GithubBtn href="https://github.com/Maxime-juncker/Maximatron"/>
             </section>
 
             <Link href={"/HumanSI"} className={styles.NextProject}

@@ -2,6 +2,8 @@ import SkillCard from '../Components/SkillCard';
 import PointLight from '../Components/PointLight';
 import ProjectCard from '../Components/ProjectCard';
 import ContactForm from '../Components/ContactForm'
+import Link from 'next/link';
+import styles from '../styles/githubBtn.module.css'
 
 const violet = "#6C399F";
 const blue = "#306AFF";
@@ -53,7 +55,7 @@ export default function Home() {
                       <SkillCard content={"VS CODE"} src={"/Images/Cards/visual-studio-code.svg"}/>
                       <SkillCard content={"VISUAL STUDIO"} src={"/Images/Cards/visual-studio.svg"}/>
                       <SkillCard content={"RIDER"} src={"/Images/Cards/jetbrains.svg"}/>
-                      <SkillCard content={"GITHUB"} src={"/Images/Cards/github.svg"}/>
+                      <SkillCard content={"GITHUB / GIT"} src={"/Images/Cards/github.svg"}/>
                       <SkillCard content={"XAMARIN"} src={"/Images/Cards/xamarin.svg"}/>
                       <SkillCard content={"AVALONIA UI"} src={"/Images/Cards/avalonia.svg"}/>
                     </div>
@@ -86,7 +88,6 @@ export default function Home() {
                   <PointLight left={80} top={80} backgroundColor={red}/>
                   <PointLight left={-20} top={50} backgroundColor={red}/>
                 </section>
-        
                 <section id='Contact' className='Contact'>
                   <h1>CONTACT</h1>
                   <section>
@@ -95,10 +96,17 @@ export default function Home() {
                     <article className='Contact-card'>
                       <ContactForm/>
                     </article>
+                <Link href="https://github.com/Maxime-juncker" className={styles.Github} style={{ width: "15vw", marginLeft:"5vw"}}>
+                  <img src="/Images/Cards/github.svg" alt="The github logo"/>
+                  <h1>My github</h1>
+                </Link>
                   </section>
                   <PointLight left={10} top={0} backgroundColor={green}/>
                   <PointLight left={80} top={20} backgroundColor={green}/>
+                  <PointLight left={0} top={60} backgroundColor={green}/>
                 </section>
+
+
             </main>  
   )
 }

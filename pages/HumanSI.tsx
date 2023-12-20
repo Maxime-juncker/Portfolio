@@ -3,6 +3,7 @@ import Link from "next/link";
 import SkillCard from "../Components/SkillCard";
 import styles from '../styles/about.module.css'
 import { useState } from "react";
+import GithubBtn from "../Components/GithubBtn";
 
 const Maximatron = () => 
 {
@@ -65,7 +66,7 @@ const Maximatron = () =>
                         <img src={("/Images/Projects/HumanSI/HumanSI-app-screen03.png")}  alt="" />
                     </article>
                 </div>
-                <div className={styles.Features} style={{transform: "TranslateY(-300px)"}}>
+                <div className={styles.Features}>
                 <PointLight left={-40} top={-20} backgroundColor={"var(--human-si)"}/>
                 <PointLight left={0} top={-20} backgroundColor={"var(--human-si)"}/>
 
@@ -79,6 +80,8 @@ const Maximatron = () =>
                     <li>inspect menu</li>
                     <li>User tools (damage, place buildings, etc...)</li>
                 </div>
+                <GithubBtn href="https://github.com/Maxime-juncker/HumanSI"/>
+                
             </section>
 
             <Link href={"/Pronout"} className={styles.NextProject}
