@@ -3,6 +3,7 @@ import Link from "next/link";
 import SkillCard from "../Components/SkillCard";
 import styles from '../styles/about.module.css'
 import GithubBtn from "../Components/GithubBtn";
+import Head from "next/head";
 import { useState } from "react";
 
 const Maximatron = () => 
@@ -10,7 +11,9 @@ const Maximatron = () =>
     const [isHovered, setIsHovered] = useState(false);
     return (
         <div>               
-
+              <Head>
+                <title>Maxime Juncker | Maximatron</title>
+              </Head>
             <header className={styles.ProjectAbout}>
             <Link className='link' style={{zIndex: 1, width:"100%",textAlign:"left", marginLeft:"5vw",
                     textDecoration: "underline" ,fontSize: "24px"}}

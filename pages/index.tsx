@@ -4,6 +4,8 @@ import ProjectCard from '../Components/ProjectCard';
 import ContactForm from '../Components/ContactForm'
 import Link from 'next/link';
 import styles from '../styles/githubBtn.module.css'
+import Head from 'next/head';
+import favicon from '../public/favicon.ico'
 
 const violet = "#6C399F";
 const blue = "#306AFF";
@@ -12,8 +14,12 @@ const green = "#387256";
 
 export default function Home() {
   return (
+    <div>
+
       <main className="App">
-        
+              <Head>
+                <title>Maxime Juncker | Developper</title>
+                <link rel="shortcut icon" href={favicon.src} />              </Head>
               {/* <Navbar/> */}
         
                 <section className='Hero' id='Hero'>
@@ -112,5 +118,6 @@ export default function Home() {
 
 
             </main>  
+    </div>
   )
 }
