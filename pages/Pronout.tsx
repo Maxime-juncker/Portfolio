@@ -64,7 +64,7 @@ const Maximatron = () =>
                 <PointLight left={0} top={-20} backgroundColor={"var(--pronout)"}/>
 
                     <h2>Features</h2>
-                    <li>It's just an app clone <br /> nothing to fancy</li>
+                    <li>This is just an app clone <br /> nothing to fancy</li>
                     
                 </div>
 
