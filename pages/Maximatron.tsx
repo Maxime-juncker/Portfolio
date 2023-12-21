@@ -20,7 +20,6 @@ const Maximatron = () =>
                     href={"/"}>← Go Back</Link>
                 <img src={("/Images/Projects/Maximatron/Maximatron-logo.png")} alt="Maximatron logo" />
                 <h1>THE MAXIMATRON</h1>
-                <h1 style={{position: 'absolute', bottom: "3vh", fontSize: "24px"}}>SROLL</h1>
                 <PointLight left={70} top={80} backgroundColor={"var(--red)"}/>
                 <PointLight left={30} top={60} backgroundColor={"var(--red)"}/>
                 <PointLight left={-20} top={90} backgroundColor={"var(--red)"}/>
@@ -28,9 +27,6 @@ const Maximatron = () =>
                 <PointLight left={30} top={150} backgroundColor={"var(--red)"}/>
 
             </header>
-
-            <div></div>
-
             <section className={styles.Content}>
                 <div className={styles.Summary}>
                     <article>
