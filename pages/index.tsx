@@ -51,12 +51,12 @@ export default function Home() {
                     <h1>SKILLS</h1>
                     <div className="Card-conterner">
                       <SkillCard content={"C#"} src={"/Images/Cards/cs.svg"}/>
-                      <SkillCard content={"C++"} src={"/Images/Cards/cpp.svg"}/>
+                      {/* <SkillCard content={"C++"} src={"/Images/Cards/cpp.svg"}/> */}
                       <SkillCard content={"CSS"} src={"/Images/Cards/css.svg"}/>
                       <SkillCard content={"HTML"} src={"/Images/Cards/html.svg"}/>
                       <SkillCard content={"PYTHON"} src={"/Images/Cards/python.svg"}/>
-                      <SkillCard content={"UNITY"} src={"/Images/Cards/unity.svg"}/>
-                      <SkillCard content={"UNREAL"} src={"/Images/Cards/unreal.svg"}/>
+                      {/* <SkillCard content={"UNITY"} src={"/Images/Cards/unity.svg"}/> */}
+                      {/* <SkillCard content={"UNREAL"} src={"/Images/Cards/unreal.svg"}/> */}
                       <SkillCard content={"BLENDER"} src={"/Images/Cards/blender.svg"}/>
                       <SkillCard content={"VS CODE"} src={"/Images/Cards/visual-studio-code.svg"}/>
                       <SkillCard content={"VISUAL STUDIO"} src={"/Images/Cards/visual-studio.svg"}/>
