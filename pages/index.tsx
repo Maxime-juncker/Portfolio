@@ -93,7 +93,8 @@ export default function Home() {
                   <ProjectCard src={"/Images/Projects/Vulkouch/Vulkouch_screenshot.png"}
                                title="Vulkouch" 
                                description="Vulkan implementation"
-                               nav={"/Raytracing"}/>
+                               nav={"/Vulkouch"}/>
+                               
                   <PointLight left={70} top={20} backgroundColor={red}/>
                   <PointLight left={10} top={5} backgroundColor={red}/>
                   <PointLight left={65} top={55} backgroundColor={red}/>
