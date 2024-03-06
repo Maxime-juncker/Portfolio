@@ -51,7 +51,7 @@ export default function Home() {
                     <h1>SKILLS</h1>
                     <div className="Card-conterner">
                       <SkillCard content={"C#"} src={"/Images/Cards/cs.svg"}/>
-                      {/* <SkillCard content={"C++"} src={"/Images/Cards/cpp.svg"}/> */}
+                      { <SkillCard content={"C++"} src={"/Images/Cards/cpp.svg"}/> }
                       <SkillCard content={"CSS"} src={"/Images/Cards/css.svg"}/>
                       <SkillCard content={"HTML"} src={"/Images/Cards/html.svg"}/>
                       <SkillCard content={"PYTHON"} src={"/Images/Cards/python.svg"}/>
@@ -62,8 +62,7 @@ export default function Home() {
                       <SkillCard content={"VISUAL STUDIO"} src={"/Images/Cards/visual-studio.svg"}/>
                       <SkillCard content={"RIDER"} src={"/Images/Cards/jetbrains.svg"}/>
                       <SkillCard content={"GITHUB / GIT"} src={"/Images/Cards/github.svg"}/>
-                      <SkillCard content={"XAMARIN"} src={"/Images/Cards/xamarin.svg"}/>
-                      <SkillCard content={"AVALONIA UI"} src={"/Images/Cards/avalonia.svg"}/>
+
                     </div>
                   </div>
                 </section>
@@ -85,14 +84,23 @@ export default function Home() {
                   <ProjectCard src={"/Images/Projects/Pronout/Pronoute-screen.png"}
                                title="Pronout" 
                                description="Mobile App"
-                               logo={"/Images/Projects/Pronout/Pronoute_logo.png"}
+                               logo={"/Images/Projects/Pronout/Pronout-logo.png"}
                                nav={"/Pronout"}/>
+                  <ProjectCard src={"/Images/Projects/Raytracing/Raytracing_2.png"}
+                               title="Raytracing" 
+                               description="Custom raytracer"
+                               nav={"/Raytracing"}/>
+                  <ProjectCard src={"/Images/Projects/Vulkouch/Vulkouch_screenshot.png"}
+                               title="Vulkouch" 
+                               description="Vulkan implementation"
+                               nav={"/Raytracing"}/>
                   <PointLight left={70} top={20} backgroundColor={red}/>
                   <PointLight left={10} top={5} backgroundColor={red}/>
                   <PointLight left={65} top={55} backgroundColor={red}/>
                   <PointLight left={0} top={70} backgroundColor={red}/>
                   <PointLight left={80} top={80} backgroundColor={red}/>
-                  <PointLight left={-20} top={50} backgroundColor={red}/>
+                  <PointLight left={-10} top={150} backgroundColor={red}/>
+                  <PointLight left={60} top={170} backgroundColor={red}/>
                 </section>
                 <section id='Contact' className='Contact'>
                   <h1>CONTACT</h1>

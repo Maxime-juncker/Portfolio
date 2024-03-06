@@ -69,12 +69,12 @@ const Maximatron = () =>
 
             </section>
 
-            <Link href={"/Maximatron"} className={styles.NextProject}
+            <Link href={"/Raytracing"} className={styles.NextProject}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}>
                 <section>
                     <h3>NEXT PROJECT</h3>
-                    <h1 style={{color:"var(--pronout)"}}>Maximatron</h1>
+                    <h1 style={{color:"var(--pronout)"}}>Raytracing</h1>
                 </section>
                 <img src="/arrow.svg" className="arrow" style={!isHovered ? {filter: "hue-rotate(130deg) saturate(70%) brightness(100%)"}
                 : {filter: "grayscale(1) brightness(10)"}}/>

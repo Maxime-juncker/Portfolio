@@ -7,6 +7,7 @@
   --violet: #6C399F;
   --green: #387256;
   --red: #cc435e;
+  --grey: #646464;
 
   --human-si: #74A661;
   --pronout: #387256;
@@ -408,6 +409,7 @@ h1
 
 .Project-card img
 {  
+  max-height: 350px;
   border-start-end-radius: 20px;
   border-start-start-radius: 20px;
 }
