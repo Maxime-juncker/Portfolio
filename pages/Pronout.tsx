@@ -9,7 +9,7 @@ const Maximatron = () =>
 {
     const [isHovered, setIsHovered] = useState(false);
     return (
-        <div>               
+        <div className={styles.main}>               
               <Head>
                 <title>Maxime Juncker | Pronout</title>
               </Head>
@@ -19,10 +19,8 @@ const Maximatron = () =>
                     href={"/"}>← Go Back</Link>
                 <img src={("/Images/Projects/Pronout/Pronout-logo.png")} alt="Pronout logo" />
                 <h1>PRONOUT</h1>
-                <PointLight left={70} top={80} backgroundColor={"var(--pronout)"}/>
                 <PointLight left={30} top={60} backgroundColor={"var(--pronout)"}/>
                 <PointLight left={-20} top={90} backgroundColor={"var(--pronout)"}/>
-                <PointLight left={50} top={120} backgroundColor={"var(--pronout)"}/>
                 <PointLight left={30} top={150} backgroundColor={"var(--pronout)"}/>
 
             </header>

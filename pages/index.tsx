@@ -24,7 +24,6 @@ export default function Home() {
         
                 <section className='Hero' id='Hero'>
                   <PointLight left={10} top={60} backgroundColor={violet}/>
-                  <PointLight left={80} top={45} backgroundColor={violet}/>
                   <PointLight left={25} top={10} backgroundColor={violet}/>
                   <img src="/Images/header-img.png" alt="" className='background-img' style={{marginTop:"5vh"}}/>
         
@@ -111,11 +110,11 @@ export default function Home() {
                     <article className='Contact-card'>
                       <ContactForm/>
                     </article>
-                <Link href="https://github.com/Maxime-juncker" className={styles.Github} style={{ width: "15vw", marginLeft:"5vw"}}>
+                <Link href="https://github.com/Maxime-juncker" className={styles.Github} style={{ width: "100%", marginLeft:"5vw"}}>
                   <img src="/Images/Cards/github.svg" alt="The github logo"/>
                   <h1>My github</h1>
                 </Link>
-                <Link href="https://github.com/Maxime-juncker/portfolio" className={styles.Github} style={{ width: "15vw", marginLeft:"5vw"}}>
+                <Link href="https://github.com/Maxime-juncker/portfolio" className={styles.Github} style={{ width: "100%", marginLeft:"5vw"}}>
                   <img src="/Images/Cards/github.svg" alt="The github logo"/>
                   <h1>Portfolio code here</h1>
                 </Link>

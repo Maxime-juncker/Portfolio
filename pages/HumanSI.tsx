@@ -17,9 +17,8 @@ const Maximatron = () =>
             <Link style={{zIndex: 1, width:"100%",textAlign:"left", marginLeft:"5vw",
                     textDecoration: "underline" ,fontSize: "24px"}}
                     href={"/"}>← Go Back</Link>
-                <img src={("/Images/Projects/HumanSI/HumanSI-logo.png")} alt="Human SI logo" style={{borderRadius:"40px", width: "600px"}} />
+                <img src={("/Images/Projects/HumanSI/HumanSI-logo.png")} alt="Human SI logo" style={{borderRadius:"40px", width: "100%"}} />
                 <h1>Human SI</h1>
-                <PointLight left={70} top={80} backgroundColor={"var(--human-si)"}/>
                 <PointLight left={30} top={60} backgroundColor={"var(--human-si)"}/>
                 <PointLight left={-20} top={90} backgroundColor={"var(--human-si)"}/>
                 <PointLight left={50} top={120} backgroundColor={"var(--human-si)"}/>

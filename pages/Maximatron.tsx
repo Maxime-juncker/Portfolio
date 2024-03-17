@@ -20,10 +20,8 @@ const Maximatron = () =>
                     href={"/"}>← Go Back</Link>
                 <img src={("/Images/Projects/Maximatron/Maximatron-logo.png")} alt="Maximatron logo" />
                 <h1>THE MAXIMATRON</h1>
-                <PointLight left={70} top={80} backgroundColor={"var(--red)"}/>
                 <PointLight left={30} top={60} backgroundColor={"var(--red)"}/>
                 <PointLight left={-20} top={90} backgroundColor={"var(--red)"}/>
-                <PointLight left={50} top={120} backgroundColor={"var(--red)"}/>
                 <PointLight left={30} top={150} backgroundColor={"var(--red)"}/>
 
             </header>

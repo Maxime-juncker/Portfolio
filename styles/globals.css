@@ -42,7 +42,7 @@ body
 .App {
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
-
+  overflow-x: hidden;
 }
 
 h1
@@ -115,10 +115,10 @@ h1
 .background-img
 {
   position: absolute;
-  width: 70vw;
-  min-width: 1000px;
+  object-fit: fill;
 
   z-index: -2;
+
   animation: backgroundMovement 10s infinite ease-in-out;
 
 }
@@ -702,6 +702,11 @@ h1
   .Hero
   {
     background-size: cover;
+
+  }
+  .background-img
+  {
+  width: 100%;
 
   }
   .Hero h1
