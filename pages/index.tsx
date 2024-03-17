@@ -110,11 +110,11 @@ export default function Home() {
                     <article className='Contact-card'>
                       <ContactForm/>
                     </article>
-                <Link href="https://github.com/Maxime-juncker" className={styles.Github} style={{ width: "100%", marginLeft:"5vw"}}>
+                <Link href="https://github.com/Maxime-juncker" className={styles.Github} style={{marginLeft:"5vw"}}>
                   <img src="/Images/Cards/github.svg" alt="The github logo"/>
                   <h1>My github</h1>
                 </Link>
-                <Link href="https://github.com/Maxime-juncker/portfolio" className={styles.Github} style={{ width: "100%", marginLeft:"5vw"}}>
+                <Link href="https://github.com/Maxime-juncker/portfolio" className={styles.Github} style={{ marginLeft:"5vw"}}>
                   <img src="/Images/Cards/github.svg" alt="The github logo"/>
                   <h1>Portfolio code here</h1>
                 </Link>
