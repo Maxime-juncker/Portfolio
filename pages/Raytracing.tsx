@@ -66,7 +66,7 @@ const Raytracing = () =>
                 <PointLight left={0} top={-20} backgroundColor={"var(--violet)"}/>
 
                     <h2>Feetures</h2>
-                    <li>Ratracer (based on PCG_Hash)</li>
+                    <li>Ratracer with accumulation</li>
                     <li>Custom random generator (based on PCG_Hash)</li>
                     <li>Material : color, roughness</li>
                     <li>Emissive materials</li>

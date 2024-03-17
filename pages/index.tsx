@@ -44,7 +44,7 @@ export default function Home() {
                       use c++ and c# language to create some small app 
                       for android or windows. <br /><br />
                       I’m also looking into creating 
-                      simulation and machine learning stuff.
+                      into simulation and graphics engine like vulkan
                     </p>
                   </div>
                   <div className="Skills">
