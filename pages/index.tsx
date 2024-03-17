@@ -23,7 +23,9 @@ export default function Home() {
               {/* <Navbar/> */}
         
                 <section className='Hero' id='Hero'>
-
+                  <PointLight left={10} top={60} backgroundColor={violet}/>
+                  <PointLight left={80} top={45} backgroundColor={violet}/>
+                  <PointLight left={25} top={10} backgroundColor={violet}/>
                   <img src="/Images/header-img.png" alt="" className='background-img' style={{marginTop:"5vh"}}/>
         
                   <h1>JUNCKER <br /> MAXIME</h1>
