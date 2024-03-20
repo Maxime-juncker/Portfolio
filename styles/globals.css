@@ -43,6 +43,7 @@ body
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
   overflow-x: hidden;
+  height: 7500px;
 }
 
 h1
@@ -362,6 +363,7 @@ h1
   gap: 0;
   margin: 20px;
   width: 50vw;
+  max-width: 1000px;
   transition: all .5s;
 }
 
