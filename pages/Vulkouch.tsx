@@ -18,7 +18,7 @@ const Raytracing = () =>
             <Link className='link' style={{zIndex: 1, width:"100%",textAlign:"left", marginLeft:"5vw",
                     textDecoration: "underline" ,fontSize: "24px"}}
                     href={"/"}>← Go Back</Link>
-                <img src={("/Images/Projects/Vulkouch/Vulkouch_screenshot.png")} style={{borderRadius:"40px", width: "100%"}} />
+                <img src={("/Images/Projects/Vulkouch/Vulkouch_screenshot.png")} style={{borderRadius:"40px", width: "30%"}} />
                 <h1>Vulkouch</h1>
                 <PointLight left={30} top={60} backgroundColor={"var(--grey)"}/>
                 <PointLight left={-20} top={90} backgroundColor={"var(--grey)"}/>
