@@ -6,7 +6,7 @@ const GithubBtn = ({href=""}) =>
     return (
         <Link href={href} className={styles.Github}>
             <img src="/Images/Cards/github.svg" alt="The github logo"/>
-            <h1>Get it on github</h1>
+            <h1>Lien code source</h1>
         </Link>
     );
 };

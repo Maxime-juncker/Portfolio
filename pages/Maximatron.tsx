@@ -17,7 +17,7 @@ const Maximatron = () =>
             <header className={styles.ProjectAbout}>
             <Link className='link' style={{zIndex: 1, width:"100%",textAlign:"left", marginLeft:"5vw",
                     textDecoration: "underline" ,fontSize: "24px"}}
-                    href={"/"}>← Go Back</Link>
+                    href={"/"}>← Retour</Link>
                 <img src={("/Images/Projects/Maximatron/Maximatron-logo.png")} alt="Maximatron logo" />
                 <h1>THE MAXIMATRON</h1>
                 <PointLight left={30} top={60} backgroundColor={"var(--red)"}/>
@@ -29,15 +29,16 @@ const Maximatron = () =>
                 <div className={styles.Summary}>
                     <article>
                         <div>
-                            <h2 >Project Idea</h2>
-                            <p>The Maximatron is a productivity app 
-                                where the user can add 
-                                multiple type of blocks to do a variety of things like,
-                                which include basic text field, 
-                                check box, lists and more are planned to come.</p>
+                            <h2 >Idée</h2>
+                            <p>Le Maximation est une application permettant une prise de note sous forme de blocks. L'utilisateur peut ajouter une du texte, des listes, des titres, ou des todos.</p>
+                            <p>L'application permet la sauvegarde des note avec le format ".maximatron", l'utilisateur peut charger individuellement des pages ou alors charger un dossier, toutes les pages avec l'éxtension .maximatron serons détécter et afficher
+                                <br/>
+                                l'utilisateur peut également interagire avec l'application soit avec les boutons dans le menu, soit avec des racourcis claviers.
+                            </p>
+
                         </div>
                         <div>
-                            <h2>Tools Used</h2>
+                            <h2>Outils utilisés</h2>
                             <div className="Card-conterner">
                                 <SkillCard content={"C#"} src={("/Images/Cards/cs.svg")}/>
                                 <SkillCard content={"RIDER"} src={("/Images/Cards/jetbrains.svg")}/>
@@ -46,7 +47,7 @@ const Maximatron = () =>
                             </div>
                         </div>
                         <div>
-                            <h2>Platform supported</h2>
+                            <h2>Platformes supportées</h2>
                             <div className="Card-conterner">
                                 <SkillCard content={"WINDOWS"} src={("../Images/Cards/windows.svg")}/>
                             </div>
@@ -58,18 +59,17 @@ const Maximatron = () =>
                         <img src={("/Images/Projects/Maximatron/Maximatron-app-screen02.png")} alt="" />
                     </article>
                 </div>
-                <div className={styles.Features}>
+                <div className={styles.Caractéristiques}>
                 <PointLight left={-40} top={-20} backgroundColor={"var(--red)"}/>
                 <PointLight left={0} top={-20} backgroundColor={"var(--red)"}/>
 
-                    <h2>Features</h2>
-                    <li>Files hierachy</li>
-                    <li>Opening folder / file</li>
-                    <li>Saving / Quick saving file</li>
-                    <li>All action contain shortcut</li>
-                    <li>Custom saving using .maximatron format</li>
-                    <li>App theme match windows accent colors</li>
-                    <li>Lists / note / checkbox blocks</li>
+                    <h2>Caractéristiques</h2>
+                    <li>Hierarchie de fichiers</li>
+                    <li>Chargement de fichier / dossier</li>
+                    <li>Sauvegarde des fichiers</li>
+                    <li>Racourcis clavier pour toutes les interactions</li>
+                    <li>Format de sauvegarde ".maximatron" custom</li>
+                    <li>Couleur d'accent correspond à la couleur d'accent windows</li>
                 </div>
 
                 <GithubBtn href="https://github.com/Maxime-juncker/Maximatron"/>

@@ -17,7 +17,7 @@ const Raytracing = () =>
             <header className={styles.ProjectAbout}>
             <Link className='link' style={{zIndex: 1, width:"100%",textAlign:"left", marginLeft:"5vw",
                     textDecoration: "underline" ,fontSize: "24px"}}
-                    href={"/"}>← Go Back</Link>
+                    href={"/"}>← Retour</Link>
                 <img src={("/Images/Projects/Raytracing/Raytracing_2.png")} alt="Human SI logo" style={{borderRadius:"40px", width: "30%"}} />
                 <h1>RAYTRACER</h1>
                 <PointLight left={30} top={60} backgroundColor={"var(--violet)"}/>
@@ -29,16 +29,13 @@ const Raytracing = () =>
                 <div className={styles.Summary}>
                     <article>
                         <div>
-                            <h2 >Project Idea</h2>
+                            <h2 >Description:</h2>
                             <p>
-                            This is a basic raytracer running on the cpu
-                             (with multithreading enable). It’s using a 
-                             custom The Walnut and ImGUI labraries. All shadow 
-                             / ambiant occlusion come only from the raytracing
+                            Un raytracer basique sur cpu
                             </p>
                         </div>
                         <div>
-                            <h2>Tools Used</h2>
+                            <h2>Outils utilisés</h2>
                             <div className="Card-conterner">
                                 <SkillCard content={"C++"} src={("/Images/Cards/cpp.svg")}/>
                                 <SkillCard content={"Visual studio"} src={("/Images/Cards/visual-studio.svg")}/>
@@ -47,7 +44,7 @@ const Raytracing = () =>
                             </div>
                         </div>
                         <div>
-                            <h2>Platform supported</h2>
+                            <h2>Platformes supportées</h2>
                             <div className="Card-conterner">
                                 <SkillCard content={"WINDOWS"} src={("../Images/Cards/windows.svg")}/>
                             </div>
@@ -59,16 +56,15 @@ const Raytracing = () =>
                         <img src={("/Images/Projects/Raytracing/Raytracing_1.png")} alt="" />
                     </article>
                 </div>
-                <div className={styles.Features}>
+                <div className={styles.Caractéristiques}>
                 <PointLight left={-40} top={-20} backgroundColor={"var(--violet)"}/>
                 <PointLight left={0} top={-20} backgroundColor={"var(--violet)"}/>
 
-                    <h2>Feetures</h2>
-                    <li>Ratracer with accumulation</li>
-                    <li>Custom random generator (based on PCG_Hash)</li>
-                    <li>Material : color, roughness</li>
-                    <li>Emissive materials</li>
-                    <li>Dynamics sphere : position, radius, materials</li>
+                    <h2>Caractéristiques</h2>
+                    <li>Ratracer avec accumulation</li>
+                    <li>Générateur de nombre aléatoires (basé sur PCG_Hash)</li>
+                    <li>Materiaux</li>
+                    <li>Spheres dynamique : position, rayon, materiaux</li>
                 </div>
 
                 <GithubBtn href="https://github.com/Maxime-juncker/RayTracing"/>

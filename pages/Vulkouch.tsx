@@ -17,7 +17,7 @@ const Raytracing = () =>
             <header className={styles.ProjectAbout}>
             <Link className='link' style={{zIndex: 1, width:"100%",textAlign:"left", marginLeft:"5vw",
                     textDecoration: "underline" ,fontSize: "24px"}}
-                    href={"/"}>← Go Back</Link>
+                    href={"/"}>← Retour</Link>
                 <img src={("/Images/Projects/Vulkouch/Vulkouch_screenshot.png")} style={{borderRadius:"40px", width: "30%"}} />
                 <h1>Vulkouch</h1>
                 <PointLight left={30} top={60} backgroundColor={"var(--grey)"}/>
@@ -29,15 +29,14 @@ const Raytracing = () =>
                 <div className={styles.Summary}>
                     <article>
                         <div>
-                            <h2 >Project Idea</h2>
+                            <h2 >Description:</h2>
                             <p>
-                            This is an implementation of the vulkan api in c++
-                             (based on https://vulkan-tutorial.com/). 
-                             This project is using glfw, glm and vulkan libraries. 
+                            Implémentation de l'API Vulkan en c++
+                             (basé sur ce tutoriel https://vulkan-tutorial.com/). 
                             </p>
                         </div>
                         <div>
-                            <h2>Tools Used</h2>
+                            <h2>Outils utilisés</h2>
                             <div className="Card-conterner">
                                 <SkillCard content={"C++"} src={("/Images/Cards/cpp.svg")}/>
                                 <SkillCard content={"Visual studio"} src={("/Images/Cards/visual-studio.svg")}/>
@@ -47,7 +46,7 @@ const Raytracing = () =>
                             </div>
                         </div>
                         <div>
-                            <h2>Platform supported</h2>
+                            <h2>Platformes supportées</h2>
                             <div className="Card-conterner">
                                 <SkillCard content={"WINDOWS"} src={("../Images/Cards/windows.svg")}/>
                             </div>
@@ -58,15 +57,15 @@ const Raytracing = () =>
                         <img src={("/Images/Projects/Vulkouch/Vulkouch_screenshot.png")} alt="" />
                     </article>
                 </div>
-                <div className={styles.Features}>
+                <div className={styles.Caractéristiques}>
                 <PointLight left={-40} top={-20} backgroundColor={"var(--grey)"}/>
                 <PointLight left={0} top={-20} backgroundColor={"var(--grey)"}/>
 
-                    <h2>Feetures</h2>
-                    <li>Renderer wich can use multiple render system</li>
-                    <li>Implementation of the pipeline, device, swapchain and window</li>
-                    <li>dynamic shader compile </li>
-                    <li>Using gameobject / model for displaying stuff.</li>
+                    <h2>Caractéristiques</h2>
+                    <li>Renderer peut utiliser plusieurs render system</li>
+                    <li>Implementation de la pipeline, device, swapchain et window</li>
+                    <li>compilation de shader </li>
+                    <li>Utilisation de gameobject / model pour l'affichage.</li>
                 </div>
 
                 <GithubBtn href="https://github.com/Maxime-juncker/Vulkouch"/>

@@ -16,7 +16,7 @@ const Maximatron = () =>
             <header className={styles.ProjectAbout}>
             <Link className='link' style={{zIndex: 1, width:"100%",textAlign:"left", marginLeft:"5vw",
                     textDecoration: "underline" ,fontSize: "24px"}}
-                    href={"/"}>← Go Back</Link>
+                    href={"/"}>← Retour</Link>
                 <img src={("/Images/Projects/Pronout/Pronout-logo.png")} alt="Pronout logo" />
                 <h1>PRONOUT</h1>
                 <PointLight left={30} top={60} backgroundColor={"var(--pronout)"}/>
@@ -31,11 +31,11 @@ const Maximatron = () =>
                 <div className={styles.Summary}>
                     <article>
                         <div>
-                            <h2 >Project Idea</h2>
-                            <p>Pronout is a clone from the Pronote application</p>
+                            <h2 >Description:</h2>
+                            <p>Clone de l'application Pronote</p>
                         </div>
                         <div>
-                            <h2>Tools Used</h2>
+                            <h2>Outils utilisés</h2>
                             <div className="Card-conterner">
                                 <SkillCard content={"C#"} src={("/Images/Cards/cs.svg")}/>
                                 <SkillCard content={"XAMARIN"} src={("/Images/Cards/xamarin.svg")}/>
@@ -44,7 +44,7 @@ const Maximatron = () =>
                             </div>
                         </div>
                         <div>
-                            <h2>Platform supported</h2>
+                            <h2>Platformes supportées</h2>
                             <div className="Card-conterner">
                                 <SkillCard content={"Android (API 10+)"} src={("/Images/Cards/android.svg")}/>
                             </div>
@@ -56,15 +56,10 @@ const Maximatron = () =>
                         <img src={("/Images/Projects/Pronout/Pronote-app-screen.png")} style={{width: "30%"}} alt="" />
                     </article>
                 </div>
-                <div className={styles.Features}>
+                <div className={styles.Caractéristiques}>
                 <PointLight left={-40} top={-20} backgroundColor={"var(--pronout)"}/>
-                <PointLight left={0} top={-20} backgroundColor={"var(--pronout)"}/>
-
-                    <h2>Features</h2>
-                    <li>This is just an app clone <br /> nothing to fancy</li>
-                    
+                <PointLight left={0} top={-20} backgroundColor={"var(--pronout)"}/>                    
                 </div>
-
             </section>
 
             <Link href={"/Raytracing"} className={styles.NextProject}

@@ -32,12 +32,12 @@ const ContactForm = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail} className='Contact-Item'>
-      <h1>Name*</h1>
-      <input type="text" placeholder='Enter your name...' name="user_name" required/>
+      <h1>Nom*</h1>
+      <input type="text" placeholder='Entrer votre nom...' name="user_name" required/>
       <h1>Email*</h1>
-      <input type="email" placeholder='Enter your email...' name="user_email" required/>
+      <input type="email" placeholder='Entrer votre email...' name="user_email" required/>
       <h1>Message*</h1>
-      <textarea name="message" placeholder='Enter your message...' required/>
+      <textarea name="message" placeholder='Entrer votre message...' required/>
       <button type="submit" value="Send"
         style={{animation: isAnimating ? "submit 500ms ease-in-out forwards" : "none"}} >{buttonText}</button>
     </form>

@@ -16,7 +16,7 @@ const Maximatron = () =>
             <header className={styles.ProjectAbout}>
             <Link style={{zIndex: 1, width:"100%",textAlign:"left", marginLeft:"5vw",
                     textDecoration: "underline" ,fontSize: "24px"}}
-                    href={"/"}>← Go Back</Link>
+                    href={"/"}>← Retour</Link>
                 <img src={("/Images/Projects/HumanSI/HumanSI-logo.png")} alt="Human SI logo" style={{borderRadius:"40px", width: "30%"}} />
                 <h1>Human SI</h1>
                 <PointLight left={30} top={60} backgroundColor={"var(--human-si)"}/>
@@ -32,16 +32,18 @@ const Maximatron = () =>
                 <div className={styles.Summary}>
                     <article>
                         <div>
-                            <h2 >Project Idea</h2>
-                            <p>HumanSI is a simple project about simulating multiple
-                                 population inside a procedurally generated world, 
-                                 they can expand, create new inhabitant, new house or 
-                                 event wonders, if two civilisation are to close to each 
-                                 other, they could start a war.
-                                 Note : Project made with 4 friend for a competition</p>
+                            <h2 >Description:</h2>
+                            <p>HumanSI est un simple projet réaliser pour un concours d'informatique de lycée (les trophées de la nsi) en équipe de 5.
+                                <br/>
+                                Une carte et plusieurs civilisation sont généré aléatoirement, ces civilisations vont trouver des ressources éparpier sur la carte et ce développerons en construsant des habitations etc...
+                                <br/>
+                                Les différentes civilisations peuvent intéragire entre elle en choisisant de s'ignorer ou de s'attaquer.
+                                <br/>
+                                Les civilisation sont modulaire et toutes leurs statistique sont sauvegardés dans un fichier csv permettant l'ajout facile de nouvelles civilisations.  
+                            </p>
                         </div>
                         <div>
-                            <h2>Tools Used</h2>
+                            <h2>Outils utilisés</h2>
                             <div className="Card-conterner">
                             <SkillCard content={"PYTHON"} src={"/Images/Cards/html.svg"}/>
                             <SkillCard content={"BLENDER"} src={"/Images/Cards/blender.svg"}/>
@@ -51,7 +53,7 @@ const Maximatron = () =>
                             </div>
                         </div>
                         <div>
-                            <h2>Platform supported</h2>
+                            <h2>Platformes supportées</h2>
                             <div className="Card-conterner">
                                 <SkillCard content={"WINDOWS"} src={("../Images/Cards/windows.svg")}/>
                                 <SkillCard content={"MAC OS"} src={("../Images/Cards/mac.svg")}/>
@@ -66,19 +68,17 @@ const Maximatron = () =>
                         <img src={("/Images/Projects/HumanSI/HumanSI-app-screen03.png")}  alt="" />
                     </article>
                 </div>
-                <div className={styles.Features}>
+                <div className={styles.Caractéristiques}>
                 <PointLight left={-40} top={-20} backgroundColor={"var(--human-si)"}/>
                 <PointLight left={0} top={-20} backgroundColor={"var(--human-si)"}/>
 
-                    <h2>Features</h2>
-                    <li>Procedural Map generation</li>
-                    <li>Old generated map are save for future sessions</li>
-                    <li>Multiple civilisation type with there unique stats</li>
-                    <li>Relation system between civilisation</li>
-                    <li>State machine AI</li>
-                    <li>Simple object system that allow user to add it’s on civilisation (tutorial on github)</li>
-                    <li>inspect menu</li>
-                    <li>User tools (damage, place buildings, etc...)</li>
+                    <h2>Caractéristiques</h2>
+                    <li>Génération de carte / ressources procédurale</li>
+                    <li>Sauvegarde des ancienes carte déjà généré</li>
+                    <li>Plusieurs type de civilisations</li>
+                    <li>Relation entre civilisations</li>
+                    <li>IA sous forme de state machine</li>
+                    <li>Menu pour l'interaction entre utilisateur et la carte</li>
                 </div>
                 <GithubBtn href="https://github.com/Maxime-juncker/HumanSI"/>
                 
