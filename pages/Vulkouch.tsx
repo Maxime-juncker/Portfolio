@@ -31,7 +31,7 @@ const Raytracing = () =>
                         <div>
                             <h2 >Description:</h2>
                             <p>
-                            Implémentation de l'API Vulkan en c++
+                            Implémentation de l&apos;API Vulkan en c++
                              (basé sur ce tutoriel https://vulkan-tutorial.com/). 
                             </p>
                         </div>
@@ -65,7 +65,7 @@ const Raytracing = () =>
                     <li>Renderer peut utiliser plusieurs render system</li>
                     <li>Implementation de la pipeline, device, swapchain et window</li>
                     <li>compilation de shader </li>
-                    <li>Utilisation de gameobject / model pour l'affichage.</li>
+                    <li>Utilisation de gameobject / model pour l&apos;affichage.</li>
                 </div>
 
                 <GithubBtn href="https://github.com/Maxime-juncker/Vulkouch"/>

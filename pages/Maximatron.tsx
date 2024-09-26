@@ -30,10 +30,10 @@ const Maximatron = () =>
                     <article>
                         <div>
                             <h2 >Idée</h2>
-                            <p>Le Maximation est une application permettant une prise de note sous forme de blocks. L'utilisateur peut ajouter une du texte, des listes, des titres, ou des todos.</p>
-                            <p>L'application permet la sauvegarde des note avec le format ".maximatron", l'utilisateur peut charger individuellement des pages ou alors charger un dossier, toutes les pages avec l'éxtension .maximatron serons détécter et afficher
+                            <p>Le Maximation est une application permettant une prise de note sous forme de blocks. L&apos;utilisateur peut ajouter une du texte, des listes, des titres, ou des todos.</p>
+                            <p>L&apos;application permet la sauvegarde des note avec le format .maximatron, l&apos;utilisateur peut charger individuellement des pages ou alors charger un dossier, toutes les pages avec l&apos;éxtension .maximatron serons détécter et afficher
                                 <br/>
-                                l'utilisateur peut également interagire avec l'application soit avec les boutons dans le menu, soit avec des racourcis claviers.
+                                l&apos;utilisateur peut également interagire avec l&apos;application soit avec les boutons dans le menu, soit avec des racourcis claviers.
                             </p>
 
                         </div>
@@ -68,8 +68,8 @@ const Maximatron = () =>
                     <li>Chargement de fichier / dossier</li>
                     <li>Sauvegarde des fichiers</li>
                     <li>Racourcis clavier pour toutes les interactions</li>
-                    <li>Format de sauvegarde ".maximatron" custom</li>
-                    <li>Couleur d'accent correspond à la couleur d'accent windows</li>
+                    <li>Format de sauvegarde .maximatron custom</li>
+                    <li>Couleur d&apos;accent correspond à la couleur d&apos;accent windows</li>
                 </div>
 
                 <GithubBtn href="https://github.com/Maxime-juncker/Maximatron"/>

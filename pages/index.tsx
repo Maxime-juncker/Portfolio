@@ -37,8 +37,8 @@ export default function Home() {
                   <div className="Presentation">
                     <h1>A PROPOS</h1>
                     <p>
-                      Je suis un étudiant passioné d'informatique
-                      qui est actuellement en étude à 42 lyon
+                      Je suis un étudiant passioné d&apos;informatique
+                      actuellement en étude à 42 lyon
                     </p>
                     <h1>FORMATIONS</h1>
                     <p>- Brevet des collèges (mention assez bien) 2017-2021</p>

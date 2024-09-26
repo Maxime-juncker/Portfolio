@@ -33,13 +33,13 @@ const Maximatron = () =>
                     <article>
                         <div>
                             <h2 >Description:</h2>
-                            <p>HumanSI est un simple projet réaliser pour un concours d'informatique de lycée (les trophées de la nsi) en équipe de 5.
+                            <p>HumanSI est un simple projet réaliser pour un concours d&apos;informatique de lycée (les trophées de la nsi) en équipe de 5.
                                 <br/>
                                 Une carte et plusieurs civilisation sont généré aléatoirement, ces civilisations vont trouver des ressources éparpier sur la carte et ce développerons en construsant des habitations etc...
                                 <br/>
-                                Les différentes civilisations peuvent intéragire entre elle en choisisant de s'ignorer ou de s'attaquer.
+                                Les différentes civilisations peuvent intéragire entre elle en choisisant de s&apos;ignorer ou de s&apos;attaquer.
                                 <br/>
-                                Les civilisation sont modulaire et toutes leurs statistique sont sauvegardés dans un fichier csv permettant l'ajout facile de nouvelles civilisations.  
+                                Les civilisation sont modulaire et toutes leurs statistique sont sauvegardés dans un fichier csv permettant l&apos;ajout facile de nouvelles civilisations.  
                             </p>
                         </div>
                         <div>
@@ -78,7 +78,7 @@ const Maximatron = () =>
                     <li>Plusieurs type de civilisations</li>
                     <li>Relation entre civilisations</li>
                     <li>IA sous forme de state machine</li>
-                    <li>Menu pour l'interaction entre utilisateur et la carte</li>
+                    <li>Menu pour l&apos;interaction entre utilisateur et la carte</li>
                 </div>
                 <GithubBtn href="https://github.com/Maxime-juncker/HumanSI"/>
                 

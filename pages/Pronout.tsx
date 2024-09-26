@@ -32,7 +32,7 @@ const Maximatron = () =>
                     <article>
                         <div>
                             <h2 >Description:</h2>
-                            <p>Clone de l'application Pronote</p>
+                            <p>Clone de l&apos;application Pronote</p>
                         </div>
                         <div>
                             <h2>Outils utilisés</h2>
