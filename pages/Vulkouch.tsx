@@ -71,12 +71,12 @@ const Raytracing = () =>
                 <GithubBtn href="https://github.com/Maxime-juncker/Vulkouch"/>
             </section>
 
-            <Link href={"/Maximatron"} className={styles.NextProject}
+            <Link href={"/nextcloud"} className={styles.NextProject}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}>
                 <section>
                     <h3>NEXT PROJECT</h3>
-                    <h1 style={{color:"var(--grey)"}}>Maximatron</h1>
+                    <h1 style={{color:"var(--grey)"}}>next cloud</h1>
                 </section>
                 <img src="/arrow.svg" className="arrow" style={!isHovered ? {filter: "grayscale(1) brightness(2)"}
                 : {filter: "grayscale(1) brightness(10)"}}/>
