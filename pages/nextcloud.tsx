@@ -30,7 +30,7 @@ const Maximatron = () =>
                     <article>
                         <div>
                             <h2 >Idée</h2>
-                            Faire un server nas en utilisant le plus petit budget possible, la carte même provient d'un Asus E406m avec 4go de ram et 64go de stockage, open ssh est installer pour pouvoir intéragir avec un pc distant.
+                            Faire un server nas en utilisant le plus petit budget possible, la carte même provient d&apos;un Asus E406m avec 4go de ram et 64go de stockage, open ssh est installer pour pouvoir intéragir avec un pc distant.
                             <br />
                             Ubutun server est l&apos;os installer pour maximiser les performances et la carte même est installer dans un boitier en aluminium avec un heatsink récuperer sur une ps2
 
